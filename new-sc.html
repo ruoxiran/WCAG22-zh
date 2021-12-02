@@ -1,0 +1,161 @@
+<section class="sc new" id="focus-appearance-minimum">
+   
+    <h4 id="x2-4-11-focus-appearance-minimum"><bdi class="secno"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">成功标准 2.4.11 </font></font></bdi><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">焦点外观（最低）</font></font><a class="self-link" aria-label="§" href="#focus-appearance-minimum"></a></h4>
+    
+    <div class="doclinks"><a href="https://www.w3.org/WAI/WCAG22/Understanding/focus-appearance-minimum.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">了解焦点外观（最小）</font></font></a> <span class="screenreader"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">|</font></font></span> <br><a href="https://www.w3.org/WAI/WCAG22/quickref/#focus-appearance-minimum"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何满足焦点外观（最低）</font></font></a></div><p class="conformance-level"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">(AA级)</font></font></p>
+	<p class="change"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">[新的]</font></font></p>
+    
+    <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当</font></font><a href="#dfn-user-interface-components" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-user-interface-components-7"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用户界面组件</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">接收键盘焦点时，以下所有情况都为真：</font></font></p>
+    <ul>
+        <li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对比区域：</font></font></strong><font style="vertical-align: inherit;"></font><a href="#dfn-focus-indicator" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-focus-indicator-1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对焦指示器</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">中有一个</font><font style="vertical-align: inherit;">  区域，其在</font><a href="#dfn-focus-indicator" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-focus-indicator-1"><font style="vertical-align: inherit;">对焦</font></a><font style="vertical-align: inherit;">和未对焦状态下的颜色之间的对比度至少为 3:1。</font></font></li>
+        <li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">最小面积：</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对比面积至少与：
+            </font></font><ul>
+                <li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">轮廓：</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">未聚焦组件</font><font style="vertical-align: inherit;">的 1 </font></font><a href="#dfn-css-pixels" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-css-pixels-3"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CSS 像素</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">厚</font></font><a href="#dfn-perimeter" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-perimeter-1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">周长</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的区域，或</font></font></li>
+                <li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">形状：</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">沿着</font><font style="vertical-align: inherit;">未聚焦组件</font><font style="vertical-align: inherit;">的</font></font><a href="#dfn-minimum-bounding-box" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-minimum-bounding-box-1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">最小边界框</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的最短边的 4 CSS 像素粗线的区域</font><font style="vertical-align: inherit;">，并且不小于 2 CSS 像素。</font></font></li>
+            </ul>
+        </li>
+        <li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">相邻对比度：</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对比区域与聚焦组件中相邻颜色的对比度也至少为3:1，或者对比区域的厚度至少为2个CSS像素。</font></font></li>
+        <li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">未完全隐藏：</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">具有焦点的项目并未完全被作者创建的内容隐藏。</font></font></li>
+    </ul>
+    <div class="note" role="note" id="issue-container-generatedID-22"><div role="heading" class="note-title marker" id="h-note-22" aria-level="5"><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">笔记</font></font></span></div><p class=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">具有图案或渐变的键盘对焦指示器可能会有不满足 3:1 对比度变化的部分，只要等于最小值的区域满足对比度即可。</font></font></p></div>
+    <div class="note" role="note" id="issue-container-generatedID-23"><div role="heading" class="note-title marker" id="h-note-23" aria-level="5"><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">笔记</font></font></span></div><p class=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果组件的可见边界小于命中区域，或者组件的大小不可用，则可以从可见边界中取最小区域。</font></font></p></div>
+    <div class="note" id="issue-container-generatedID-24"><div role="heading" class="ednote-title marker" id="h-ednote" aria-level="5"><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">编者注</font></font></span></div><p class=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">工作组对关于最小面积度量的反馈感兴趣，以及是否存在可见指标被措辞捕获的异常情况。</font></font></p></div>
+    
+ </section>
+
+ <section class="sc new" id="focus-appearance-enhanced">
+   
+    <h4 id="x2-4-12-focus-appearance-enhanced"><bdi class="secno"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">成功标准 2.4.12 </font></font></bdi><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">焦点外观（增强）</font></font><a class="self-link" aria-label="§" href="#focus-appearance-enhanced"></a></h4>
+    
+    <div class="doclinks"><a href="https://www.w3.org/WAI/WCAG22/Understanding/focus-appearance-enhanced.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">了解焦点外观（增强）</font></font></a> <span class="screenreader"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">|</font></font></span> <br><a href="https://www.w3.org/WAI/WCAG22/quickref/#focus-appearance-enhanced"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何满足焦点外观（增强）</font></font></a></div><p class="conformance-level"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（AAA级）</font></font></p>
+	<p class="change"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">[新的]</font></font></p>
+    
+    <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当</font></font><a href="#dfn-user-interface-components" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-user-interface-components-8"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用户界面组件</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">具有键盘焦点时，以下所有情况都为真：</font></font></p>
+    <ul>
+        <li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对比区域：</font></font></strong><font style="vertical-align: inherit;"></font><a href="#dfn-focus-indicator" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-focus-indicator-2"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对焦指示器</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">中有一个</font><font style="vertical-align: inherit;">区域，其在</font><a href="#dfn-focus-indicator" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-focus-indicator-2"><font style="vertical-align: inherit;">对焦</font></a><font style="vertical-align: inherit;">和未对焦状态下的颜色之间的对比度至少为 4.5:1。</font></font></li>
+        <li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">最小面积：</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对比区域至少</font><font style="vertical-align: inherit;">是未聚焦组件</font><font style="vertical-align: inherit;">的 1 </font></font><a href="#dfn-css-pixels" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-css-pixels-4"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CSS 像素</font></font></a> <a href="#dfn-perimeter" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-perimeter-2"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">周长</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">面积的两倍</font><font style="vertical-align: inherit;">；</font></font></li>
+       <li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">未被遮挡：</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">作者创建的内容不会隐藏焦点指示器的任何部分。</font></font></li>
+    </ul>
+ </section>
+
+ <section class="sc new" id="page-break-navigation">
+   
+    <h4 id="x2-4-13-page-break-navigation"><bdi class="secno"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">成功标准 2.4.13 </font></font></bdi><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">分页导航</font></font><a class="self-link" aria-label="§" href="#page-break-navigation"></a></h4>
+    
+    <div class="doclinks"><a href="https://www.w3.org/WAI/WCAG22/Understanding/page-break-navigation.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">了解分页导航</font></font></a> <span class="screenreader"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">|</font></font></span> <br><a href="https://www.w3.org/WAI/WCAG22/quickref/#page-break-navigation"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何满足分页导航</font></font></a></div><p class="conformance-level"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">(A级)</font></font></p>
+	<p class="change"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">[新的]</font></font></p>
+    
+    <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对于带有</font></font><a href="#dfn-pagebreak-locators" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-pagebreak-locators-1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">分页符定位器的</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Web 内容</font><font style="vertical-align: inherit;">，可以使用一种机制来导航到每个定位器。</font></font></p>
+   
+ </section>
+
+ <section class="sc new" id="dragging-movements">
+   
+    <h4 id="x2-5-7-dragging-movements"><bdi class="secno"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">成功标准 2.5.7 </font></font></bdi><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">拖动动作</font></font><a class="self-link" aria-label="§" href="#dragging-movements"></a></h4>
+    
+    <div class="doclinks"><a href="https://www.w3.org/WAI/WCAG22/Understanding/dragging-movements.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">了解拖动动作</font></font></a> <span class="screenreader"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">|</font></font></span> <br><a href="https://www.w3.org/WAI/WCAG22/quickref/#dragging-movements"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何满足拖动动作</font></font></a></div><p class="conformance-level"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">(AA级)</font></font></p>
+	<p class="change"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">[新的]</font></font></p>
+    
+    <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">所有使用</font></font><a href="#dfn-dragging-movements" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-dragging-movements-1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">拖动动作</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">进行操作的功能都可以通过单个指针实现而无需拖动，除非拖动是</font></font><a href="#dfn-essential" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-essential-14"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">必不可少的</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
+    <div class="note" role="note" id="issue-container-generatedID-29"><div role="heading" class="note-title marker" id="h-note-28" aria-level="5"><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">笔记</font></font></span></div><p class=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此要求适用于解释指针操作的 Web 内容（即这不适用于操作用户代理或辅助技术所需的操作）。</font></font></p></div>
+    <div class="note" id="issue-container-generatedID-30"><div role="heading" class="ednote-title marker" id="h-ednote-0" aria-level="5"><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">编者注</font></font></span></div><p class=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是否有帮助行动不便人士的辅助技术？</font><font style="vertical-align: inherit;">该小组希望就 AT 与作者责任之间的边界提供反馈。</font></font></p></div>
+   
+ </section>
+
+ <section class="sc new" id="target-size-minimum">
+   
+    <h4 id="x2-5-8-target-size-minimum"><bdi class="secno"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">成功标准 2.5.8 </font></font></bdi><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">目标尺寸（最小）</font></font><a class="self-link" aria-label="§" href="#target-size-minimum"></a></h4>
+    
+    <div class="doclinks"><a href="https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">了解目标尺寸（最小）</font></font></a> <span class="screenreader"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">|</font></font></span> <br><a href="https://www.w3.org/WAI/WCAG22/quickref/#target-size-minimum"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何满足目标尺寸（最小）</font></font></a></div><p class="conformance-level"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">(AA级)</font></font></p>
+	<p class="change"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">[新的]</font></font></p>
+    
+    <p><a href="#dfn-target" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-target-2"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">目标</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的面积至少为 24 x 24 CSS 像素，以下情况除外：</font></font></p>
+    <ul>
+        <li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">间距：</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">所述</font></font><a href="#dfn-target-offsets" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-target-offsets-1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">目标偏移量</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是至少24个CSS像素的每一个的相邻目标;</font></font></li>
+        <li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Inline：</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">目标在一个句子或一段文本中；</font></font></li>
+        <li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">必不可少：</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">目标的特定呈现对于所传达的信息至关重要。</font></font></li>
+    </ul>
+    <div class="note" role="note" id="issue-container-generatedID-31"><div role="heading" class="note-title marker" id="h-note-29" aria-level="5"><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">笔记</font></font></span></div><p class=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">考虑到成功标准的目的，允许基于目标内的位置在空间上选择值的目标被视为一个目标。</font><font style="vertical-align: inherit;">示例包括具有粒度值的滑块、显示颜色渐变的颜色选择器或放置光标的可编辑区域。</font></font></p></div>
+    <div class="note" id="issue-container-generatedID-32"><div role="heading" class="ednote-title marker" id="h-ednote-1" aria-level="5"><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">编者注</font></font></span></div><p class=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">描述内联链接时是否存在国际化问题？</font></font></p></div>
+    <div class="note" id="issue-container-generatedID-33"><div role="heading" class="ednote-title marker" id="h-ednote-2" aria-level="5"><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">编者注</font></font></span></div><p class=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">弹出内容重叠目标是否存在触发失败的问题？</font></font></p></div>
+
+</section>
+
+
+<section class="sc new" id="consistent-help">
+   
+    <h4 id="x3-2-6-consistent-help"><bdi class="secno"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">成功标准 3.2.6 </font></font></bdi><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">始终如一的帮助</font></font><a class="self-link" aria-label="§" href="#consistent-help"></a></h4>
+    
+    <div class="doclinks"><a href="https://www.w3.org/WAI/WCAG22/Understanding/consistent-help.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">了解一致的帮助</font></font></a> <span class="screenreader"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">|</font></font></span> <br><a href="https://www.w3.org/WAI/WCAG22/quickref/#consistent-help"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何获得一致的帮助</font></font></a></div><p class="conformance-level"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">(A级)</font></font></p>
+	<p class="change"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">[新的]</font></font></p>
+    
+    <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对于每一个</font></font><a href="#dfn-web-page-s" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-web-page-s-9"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">网页</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一个内</font></font><a href="#dfn-set-of-web-pages" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-set-of-web-pages-5"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一套网页</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，它提供了寻求帮助的下列方式之一或更多，获得的帮助下至少一种形式被包含在每个页面上相同的相对顺序：</font></font></p>
+
+    <ul>
+        <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">人员联系方式；</font></font></li>
+        <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">人体接触机制；</font></font></li>
+        <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">自助选项；</font></font></li>
+        <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">完全自动化的联系机制。</font></font></li>
+    </ul>
+
+  <div class="note" role="note" id="issue-container-generatedID-34"><div role="heading" class="note-title marker" id="h-note-30" aria-level="5"><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">笔记</font></font></span></div><p class=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可以直接在页面上提供对帮助机制的访问，也可以通过指向包含信息的不同页面的直接链接来提供。</font></font></p></div>
+    
+ </section>
+
+ <section class="sc new" id="visible-controls">
+   
+    <h4 id="x3-2-7-visible-controls"><bdi class="secno"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">成功标准 3.2.7 </font></font></bdi><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可视控件</font></font><a class="self-link" aria-label="§" href="#visible-controls"></a></h4>
+    
+    <div class="doclinks"><a href="https://www.w3.org/WAI/WCAG22/Understanding/visible-controls.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">了解可见控件</font></font></a> <span class="screenreader"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">|</font></font></span> <br><a href="https://www.w3.org/WAI/WCAG22/quickref/#visible-controls"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何满足可视化控制</font></font></a></div><p class="conformance-level"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">(AA级)</font></font></p>
+	<p class="change"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">[新的]</font></font></p>
+    
+    <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在接收指针悬停或键盘焦点触发</font></font><a href="#dfn-user-interface-components" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-user-interface-components-13"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用户界面组件</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可见的情况下，识别用户界面组件可用所需的信息是可见的，除非：</font></font></p>
+    <ul>
+        <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">识别用户界面组件所需的信息可通过在同一页面或多步骤过程中的不同步骤可见的等效组件获得，无需指针悬停或键盘焦点；</font></font></li>
+        <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该组件专门用于增强键盘导航的体验；</font></font></li>
+        <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有一种机制可以使信息持久可见；</font></font></li>
+        <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">隐藏识别组件所需的信息至关重要。</font></font></li>
+    </ul>
+    <div class="note" role="note" id="issue-container-generatedID-35"><div role="heading" class="note-title marker" id="h-note-31" aria-level="5"><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">笔记</font></font></span></div><p class=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用户界面组件可以通过其他可见组件使用，例如子菜单、编辑按钮、选项卡或媒体缩略图。</font></font></p></div>
+    <div class="note" id="issue-container-generatedID-36"><div role="heading" class="ednote-title marker" id="h-ednote-3" aria-level="5"><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">编者注</font></font></span></div><p class=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">工作组对有关是否存在由用户代理确定的不应在范围内的组件的反馈感兴趣。</font></font></p></div>
+   
+ </section>
+
+ <section class="sc new" id="accessible-authentication">
+   
+    <h4 id="x3-3-7-accessible-authentication"><bdi class="secno"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">成功标准 3.3.7 </font></font></bdi><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">无障碍认证</font></font><a class="self-link" aria-label="§" href="#accessible-authentication"></a></h4>
+    
+    <div class="doclinks"><a href="https://www.w3.org/WAI/WCAG22/Understanding/accessible-authentication.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">了解无障碍身份验证</font></font></a> <span class="screenreader"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">|</font></font></span> <br><a href="https://www.w3.org/WAI/WCAG22/quickref/#accessible-authentication"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何满足可访问的身份验证</font></font></a></div><p class="conformance-level"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">(A级)</font></font></p>
+	<p class="change"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">[新的]</font></font></p>
+    
+    <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对于依赖</font></font><a href="#dfn-cognitive-function-test" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-cognitive-function-test-1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">认知功能测试</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的认证过程中的每一步</font><font style="vertical-align: inherit;">，至少有一种不依赖于认知功能测试的其他认证方法可用，或者有一种机制可以帮助用户完成认知功能测试。</font></font></p>
+    <div class="note" role="note" id="issue-container-generatedID-37"><div role="heading" class="note-title marker" id="h-note-32" aria-level="5"><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">笔记</font></font></span></div><p class=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">机制示例包括：1) 支持密码管理员输入密码以解决记忆认知功能测试，以及 2) 复制和粘贴以帮助解决转录认知功能测试。</font></font></p></div>
+    
+ </section>
+
+
+ <section class="sc new" id="redundant-entry">
+   
+    <h4 id="x3-3-8-redundant-entry"><bdi class="secno"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">成功标准 3.3.8 </font></font></bdi><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">冗余入口</font></font><a class="self-link" aria-label="§" href="#redundant-entry"></a></h4>
+    
+    <div class="doclinks"><a href="https://www.w3.org/WAI/WCAG22/Understanding/redundant-entry.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">了解冗余入口</font></font></a> <span class="screenreader"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">|</font></font></span> <br><a href="https://www.w3.org/WAI/WCAG22/quickref/#redundant-entry"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何满足冗余入口</font></font></a></div><p class="conformance-level"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">(A级)</font></font></p>
+	<p class="change"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">[新的]</font></font></p>
+    
+    <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">需要在同一</font></font><a href="#dfn-processes" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-processes-2"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">进程</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和同一用户会话中</font><font style="vertical-align: inherit;">再次输入的先前由用户输入或提供给</font><font style="vertical-align: inherit;">用户的信息是：</font></font></p>
+
+    <ul>
+        <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">自动填充，或</font></font></li>
+        <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可供用户选择。</font></font></li>
+    </ul>
+    <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">除非：</font></font></p> 
+    <ul>
+        <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">重新输入信息是</font></font><a href="#dfn-essential" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-essential-15"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">必不可少的</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font></li>
+        <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">需要该信息以确保内容的安全性，或</font></font></li>
+        <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以前输入的信息不再有效。</font></font></li>
+    </ul>
+    
+    <div class="note" id="issue-container-generatedID-38"><div role="heading" class="ednote-title marker" id="h-ednote-4" aria-level="5"><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">编者注</font></font></span></div><p class=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">存储数据是否存在问题，以便用户可以在后续步骤中访问它？</font></font></p></div>
+    <div class="note" id="issue-container-generatedID-39"><div role="heading" class="ednote-title marker" id="h-ednote-5" aria-level="5"><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">编者注</font></font></span></div><p class=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是否需要比必要的更广泛的例外？</font><font style="vertical-align: inherit;">例如，用于强制或要求的信息重新输入。</font></font></p></div>
+ </section>
+
+ 
